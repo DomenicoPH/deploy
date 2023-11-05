@@ -1,0 +1,68 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+}
+    .foundPokemon{
+        color: black;
+        font-family: var(--pgb);
+        font-size: 0.7rem;
+        letter-spacing: 7.5px;
+        margin-left: -75px;
+    }
+    .notFoundPokemon{
+        color: red;
+        font-family: var(--pgb);
+        font-size: 0.7rem;
+        letter-spacing: 7.5px;
+        margin-left: -75px;
+    }
+    
+.content{
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    font-family: var(--pgb);
+    font-size: 0.7rem;
+    text-decoration: none;
+    padding-left: 20px;
+}
+.input{
+    background-color: var(--black);
+    color: var(--yell);
+    border-radius: 5px;
+    border: none;
+    font-family: var(--pgb);
+    font-size: 0.7rem;
+    padding: 10px;
+    min-width: 400px;
+}
+.input::placeholder{
+    font-size: 0.7rem;
+    color: var(--yell);
+}
+
+.boton img{
+    height: 50px;
+}
+.boton:hover{
+    cursor: pointer;
+}
+
+.pokeball{
+    height: 35px;
+    padding: 0px 10px;
+}
+
+.dex{
+    height: 34px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+input[type="text"] {
+    color: rgb(255, 203, 5); /* Cambia el color del texto a amarillo */
+  }
